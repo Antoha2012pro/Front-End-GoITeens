@@ -5,7 +5,8 @@
     --header-color: #dedede;
 }
 
-/* font-family: "Playwrite DE Grund", cursive; */
+/* font-family: "Playwrite DE Grund", cursive;
+font-family: "Roboto", sans-serif; */
 
 a {
     text-decoration: none;
@@ -30,6 +31,11 @@ h6,
 p {
     margin: 0;
     padding: 0;
+}
+
+.container {
+    padding-left: auto;
+    padding-right: auto;
 }
 
 /* header */
@@ -70,20 +76,30 @@ p {
     display: flex;
     align-items: center;
     margin-left: 100px;
-    font-family: "Playwrite DE Grund";
+    font-family: "Roboto";
+}
+
+.header-items {
+    gap: 20px;
 }
 
 .header-link {
     color: var(--text-color);
 }
 
-/* main */
+.header-link:hover {
+    color: var(--logo-color);
+}
 
-.main {
-    background-color: var(--background-color);
+.body {
+    background-color: var(--logo-color);
 }
 
 /* Font Fascia */
+
+.font {
+    background-color: var(--background-color);
+}
 
 .font-title {
     padding-top: 15px;
@@ -126,8 +142,8 @@ p {
 
 /* reset.css and normalize */
 
-.body {
-    background-color: coral;
+.reset {
+    background-color: var(--background-color);
 }
 
 .title {
@@ -161,7 +177,7 @@ p {
     color: rgb(0, 110, 255);
 }
 
-.box {
+.reset-items {
     border: 2px solid rgba(128, 128, 128, 0.541);
     border-radius: 25px;
     background-color: rgba(29, 29, 29, 0.719);
