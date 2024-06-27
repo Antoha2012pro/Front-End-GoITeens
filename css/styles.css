@@ -38,6 +38,17 @@ p {
     padding-right: auto;
 }
 
+.body {
+    background-color: var(--logo-color);
+    color: var(--text-color);
+    font-family: "Roboto";
+}
+
+main {
+    background-color: var(--background-color);
+}
+
+
 /* header */
 
 .header {
@@ -47,22 +58,22 @@ p {
     display: flex;
 }
 
-.header-logo {
+.logo {
     font-family: "Playwrite DE Grund";
     font-weight: 700;
     margin-left: 100px;
     font-size: 30px;
 }
 
-.header-logo1 {
+.logo1 {
     color: var(--logo-color);
 }
 
-.header-logo2 {
+.logo2 {
     color: var(--text-color);
 }
 
-.header-logo3 {
+.logo3 {
     color: var(--background-color);
 }
 
@@ -91,15 +102,31 @@ p {
     color: var(--logo-color);
 }
 
-.body {
-    background-color: var(--logo-color);
+/* footer */
+
+.footer {
+    background-color: var(--header-color);
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-link {
+    color: var(--text-color);
+}
+
+.footer-link:hover {
+    color: var(--logo-color);
 }
 
 /* Font Fascia */
-
-.font {
-    background-color: var(--background-color);
-}
 
 .font-title {
     padding-top: 15px;
@@ -116,7 +143,6 @@ p {
 .font-text {
     display: flex;
     justify-content: center;
-    font-family: "Open Sans";
     font-weight: 500;
     margin-top: 15px;
 }
@@ -135,29 +161,26 @@ p {
 }
 
 .font-img-box {
-    border: 2px solid gray;
+    border: 2px solid ;
     border-radius: 140px;
-    background-color: rgba(128, 128, 128, 0.425);
+    background-color: ;
 }
 
 /* reset.css and normalize */
 
 .reset {
-    background-color: var(--background-color);
+    padding-top: 15px;
 }
 
-.title {
-    margin-top: 15px;
+.reset-title {
     display: flex;
     justify-content: center;
-    font-family: "Open Sans";
     font-weight: 999;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid ;
     padding-bottom: 15px;
-    border-radius: 1000px;
 }
 
-.text {
+.reset-text {
     display: flex;
     justify-content: center;
     margin-top: 15px;
@@ -170,7 +193,7 @@ p {
     margin-bottom: 15px;
 }
 
-.code {
+.reset-code {
     display: flex;
     justify-content: center;
     font-weight: 700;
@@ -178,33 +201,81 @@ p {
 }
 
 .reset-items {
-    border: 2px solid rgba(128, 128, 128, 0.541);
+    border: 2px solid ;
     border-radius: 25px;
     background-color: rgba(29, 29, 29, 0.719);
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.box2 {
+.reset-box2 {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 2px solid black;
-    border-radius: 1000px;
 }
 
-.a {
+.normalize-box {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.normalize-title {
+    border-bottom: 1px solid ;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.normalize-link {
     color: var(--logo-color);
 }
 
-.text2 {
+.normalize-text {
+    font-weight: 500;
     display: flex;
     justify-content: center;
-    font-weight: 500;
-    margin-bottom: 10px;
 }
 
-.image {
+.normalize-text2 {
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+.normalize-image {
     margin: auto;
     border-radius: 20px;
     width: 800px;
+}
+
+/* Головна */
+
+.us {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.us-title {
+    font-weight: 600;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.us-span {
+    font-weight: 900;
+}
+
+.us-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.us-span-p {
+    text-decoration: 2px line-through;
+    text-decoration-color: red;
+    font-weight: 800;
 }
