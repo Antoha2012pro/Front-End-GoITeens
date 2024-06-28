@@ -44,7 +44,7 @@ p {
     font-family: "Roboto";
 }
 
-main {
+.main {
     background-color: var(--background-color);
 }
 
@@ -251,6 +251,7 @@ main {
 /* Головна */
 
 .us {
+    text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -258,8 +259,6 @@ main {
 .us-title {
     font-weight: 600;
     font-size: 40px;
-    display: flex;
-    justify-content: center;
 }
 
 .us-span {
@@ -267,8 +266,6 @@ main {
 }
 
 .us-text {
-    display: flex;
-    justify-content: center;
     margin-top: 15px;
     font-weight: 500;
     font-size: 18px;
@@ -278,4 +275,27 @@ main {
     text-decoration: 2px line-through;
     text-decoration-color: red;
     font-weight: 800;
+}
+
+/* lms */
+
+.lms {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.lms-title {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.lms-span {
+  text-decoration: line-through;
+  text-decoration-line: underline;
+  color: var(--logo-color);
+}
+
+.lms-text {
+    font-size: 20px;
 }
