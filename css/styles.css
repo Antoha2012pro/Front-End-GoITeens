@@ -102,6 +102,35 @@ p {
     color: var(--logo-color);
 }
 
+/* Головна */
+
+.us {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.us-title {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.us-span {
+    font-weight: 900;
+}
+
+.us-text {
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.us-span-p {
+    text-decoration: 2px line-through;
+    text-decoration-color: red;
+    font-weight: 800;
+}
+
 /* footer */
 
 .footer {
@@ -248,35 +277,6 @@ p {
     width: 800px;
 }
 
-/* Головна */
-
-.us {
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.us-title {
-    font-weight: 600;
-    font-size: 40px;
-}
-
-.us-span {
-    font-weight: 900;
-}
-
-.us-text {
-    margin-top: 15px;
-    font-weight: 500;
-    font-size: 18px;
-}
-
-.us-span-p {
-    text-decoration: 2px line-through;
-    text-decoration-color: red;
-    font-weight: 800;
-}
-
 /* lms */
 
 .lms {
@@ -298,4 +298,36 @@ p {
 
 .lms-text {
     font-size: 20px;
+}
+
+/* Github Desktop */
+
+.ghd {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.ghd-title {
+    font-size: 40px;
+}
+
+.ghd-span {
+    font-weight: 900;
+}
+
+.ghd-text {
+    margin-top: 10px;
+}
+
+.ghd-link {
+    text-decoration: line-through;
+    text-decoration-line: underline;
+    color: var(--logo-color);
+}
+
+.ghd-tutor {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
 }
